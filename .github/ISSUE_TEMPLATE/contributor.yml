@@ -14,5 +14,5 @@ body:
   id: year
   attributes:
     label: URL
-    description: Optional website or social media URL
+    description: (Optional) Link to your website or social media profile
     placeholder: ex., “https://example.com”

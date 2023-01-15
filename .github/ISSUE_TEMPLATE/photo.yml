@@ -7,7 +7,7 @@ body:
   id: name
   attributes:
     label: Name
-    description: Name of person or company shown on the stamp or seal.
+    description: Name of person or company shown on the stamp or seal
     placeholder: ex., “City Sidewalk Co.”
   validations:
     required: true
@@ -15,7 +15,7 @@ body:
   id: year
   attributes:
     label: Year
-    description: Year shown on the stamp or seal. (Optional)
+    description: (Optional) Year shown on the stamp or seal
     placeholder: ex., “1982”
 - type: textarea
   id: photo
@@ -33,23 +33,23 @@ body:
   id: neighborhood
   attributes:
     label: "Location: Neighborhood"
-    description: Name of the neighborhood where the seal or stamp is located. (Optional)
+    description: (Optional) Name of the neighborhood where the seal or stamp is located
 - type: input
   id: city
   attributes:
     label: "Location: City"
-    description: Name of the city where the seal or stamp is located.
+    description: Name of the city where the seal or stamp is located
   validations:
     required: true
 - type: input
   id: state
   attributes:
     label: "Location: State/Province"
-    description: Name of the state or province where the seal or stamp is located.
+    description: Name of the state or province where the seal or stamp is located
   validations:
     required: true
 - type: textarea
   id: notes
   attributes:
     label: "Notes"
-    description: Any additional information you'd like to mention. (Optional)
+    description: (Optional) Any additional information you'd like to mention
