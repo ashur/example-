@@ -1,8 +1,7 @@
 name: New Submission
-about: Submit a new photo to be published on Written in Stone
+description: Submit a new photo to be published on Written in Stone
 title: Add “[Name] ([Year])”
 labels: 'type:submission'
-assignees: ''
 body:
 - type: input
   id: name
