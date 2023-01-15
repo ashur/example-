@@ -1,0 +1,18 @@
+name: 👤 New Contributor
+description: First-time contributor? Start here ✨
+title: Add Contributor
+labels: ["item:contributor"]
+body:
+- type: input
+  id: name
+  attributes:
+    label: Name
+    description: Name as you would like it displayed on your photos.
+  validations:
+    required: true
+- type: rul
+  id: year
+  attributes:
+    label: URL
+    description: Optional website or social media URL
+    placeholder: ex., “https://example.com”
