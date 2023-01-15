@@ -10,7 +10,7 @@ body:
     description: Name as you would like it displayed on your photos.
   validations:
     required: true
-- type: rul
+- type: input
   id: year
   attributes:
     label: URL
