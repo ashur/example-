@@ -48,3 +48,8 @@ body:
     description: Name of the state or province where the seal or stamp is located.
   validations:
     required: true
+- type: textarea
+  id: notes
+  attributes:
+    label: "Notes"
+    description: Any additional information you'd like to mention. (Optional)
