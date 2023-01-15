@@ -1,7 +1,7 @@
 name: New Photo
 description: Submit a new photo to be published on Written in Stone
 title: Add “[Name] ([Year])”
-labels: ["type:photo"]
+labels: ["item:photo"]
 body:
 - type: input
   id: name
